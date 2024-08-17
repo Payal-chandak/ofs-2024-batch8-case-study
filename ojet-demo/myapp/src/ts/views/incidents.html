@@ -1,0 +1,24 @@
+<!--
+ Copyright (c) 2014, 2024, Oracle and/or its affiliates.
+ Licensed under The Universal Permissive License (UPL), Version 1.0
+ as shown at https://oss.oracle.com/licenses/upl/
+ -->
+<div class="oj-hybrid-padding">
+  <h1>Incidents Content Area</h1>
+  <div>
+      To change the content of this section, you will make edits to the incidents.html file located in the /ts/views folder.
+  </div>
+  <h1>User Information</h1>
+  <div>
+    <oj-table
+              id="table"
+              aria-label="User Table"
+              data="[[dataprovider]]"
+              columns-default='{"sortable": "disabled"}'
+              columns='[{"headerText": "User Id", "field": "id", "id": "id"},
+                        {"headerText": "Full Name", "field": "name", "id": "name"},
+                        {"headerText": "User Name", "field": "username", "id": "username"},
+                        {"headerText": "User Email", "field": "email", "id": "email"}]'
+              class="demo-table-container"></oj-table>
+  </div>
+</div>
