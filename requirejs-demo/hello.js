@@ -1,1 +1,0 @@
-console.log("This is a hello js file");
